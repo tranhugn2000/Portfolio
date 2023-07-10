@@ -1,3 +1,13 @@
+import php from "../assets/php-logo.png";
+import css from "../assets/css-logo.png";
+import js from "../assets/js-logo.png";
+import laravel from "../assets/laravel.png";
+import reactLogo from "../assets/logo-react-js.png";
+import vueLogo from "../assets/vuejs-logo.png";
+
+import mySqlLogo from "../assets/logo-mysql.png";
+import PostgreSQL from "../assets/PostgreSQL.png";
+
 
 import { motion } from "framer-motion";
 import { fadeIn } from "../variants";
@@ -10,15 +20,15 @@ const services = [
     time: "9/2018 - 9/2022",
   },
   {
-    name: "Worked on the graduation project",
+    name: "Graduation project",
     description:
-      "Quis ris commodo labore. Deserunt pariatur sunt deserunt proident incididunt. Minim incididunt deserunt commodo ",
-    time: "Learn more",
+      "Using Laravel, CSS, JS, Boostrap template to design a movie ticket booking website.",
+    time: "7/2022 - 9/2022",
   },
   {
-    name: "Uiux",
+    name: "Worked at the company.",
     description:
-      "Quis ris commodo labore. Deserunt pariatur reprehenderit proident incididunt. Minim incididunt deserunt commodo ",
+      "Participate in real company projects. Perform tasks and design according to the leader's requirements",
     time: "8/2022 - Present",
   },
 ];
@@ -36,10 +46,27 @@ const Service = () => {
             className="flex-1"
           >
             <h2 className="h2 text-violet-300 font-semibold mb-6">Skills</h2>
-            <h3 className="h3 max-w-[455px] mb-16">
-              Quis ris commodo labore. Deserunt pariatur reprehe
-            </h3>
-            <button className="btn btn-sm">Contact</button>
+            <h4 className="text-xl tracking-wider font-primary font-semibold max-w-[455px] mb-16">
+              The programming languages, libraries, and frameworks I have used are:
+            </h4>
+            <div className="flex items-center gap-4">
+              <img src={php} className="banner-logo-1 w-11" alt=""/>
+              <img src={css} className="banner-logo-2 w-10" alt=""/>
+              <img src={js} className="banner-logo-3 w-10" alt=""/>
+              <img src={laravel} className="banner-logo-4 w-10" alt=""/>
+              <img src={reactLogo} className="banner-logo-5 w-10" alt=""/>
+              <img src={vueLogo} className="banner-logo-6 w-10" alt=""/>
+            </div>
+            <div className="mt-16">
+              <h4 className="text-xl tracking-wider font-primary font-semibold max-w-[455px] mb-16">
+                  Database Management System:
+              </h4>
+              <div className="max-w-[355px] flex justify-center items-center gap-4 mt-16">
+                
+                <img src={PostgreSQL} className="banner-logo-3 w-10" alt=""/>
+                <img src={mySqlLogo} className="banner-logo-4 w-10" alt=""/>
+              </div>
+            </div>
           </motion.div>
 
           <motion.div

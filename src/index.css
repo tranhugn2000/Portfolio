@@ -114,6 +114,29 @@
     }
   }
   
+  .banner-logo-1 {
+    animation: downup 3s linear infinite
+  }
+
+  .banner-logo-2 {
+    animation: downup 3.1s linear infinite
+  }
+  
+  .banner-logo-3 {
+    animation: downup 3.2s linear infinite
+  }
+
+  .banner-logo-4 {
+    animation: downup 3.3s linear infinite
+  }
+  .banner-logo-5 {
+    animation: downup 3.4s linear infinite
+  }
+  .banner-logo-6 {
+    animation: downup 3.5s linear infinite
+  }
+
+  
 @layer base {
     body {
       @apply font-secondary text-lg leading-8 text-white;
