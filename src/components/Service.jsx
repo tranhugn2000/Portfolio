@@ -16,7 +16,7 @@ const services = [
   {
     name: "Education",
     description:
-      "Studied Computer Programming at BKACAD Institute of Technology and graduated with merit grades",
+      "Studied Computer Programming at BKACAD Institute of Technology and graduated with merit grades.",
     time: "9/2018 - 9/2022",
   },
   {
@@ -28,7 +28,7 @@ const services = [
   {
     name: "Worked at the company.",
     description:
-      "Participate in real company projects. Perform tasks and design according to the leader's requirements",
+      "Participate in real company projects. Perform tasks and design according to the leader's requirements.",
     time: "8/2022 - Present",
   },
 ];
