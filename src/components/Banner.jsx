@@ -34,7 +34,7 @@ const Banner = () => {
             </motion.p>
             <motion.div variants={fadeIn('up', 0.6 )} initial="hidden" whileInView={'show'} viewport={{once: false, amount: 0.7}} className="flex justify-center lg:justify-start max-h-max gap-x-6 items-center mb-12 mx-auto lg:mx-0">
               <Link to='contact' activeClass='active' smooth="true" spy="true" className="btn btn-lg flex items-center justify-center">Contact me</Link>
-              <a href="https://www.topcv.vn/xem-cv/U1FVVFJTUFsCAw5SCFULAAENXVNdWg1SB1cFUgdc73" className="text-gradient btn-link" target="_blank" rel="noreferrer">
+              <a href="https://static.topcv.vn/topcv-cv-uploads/d343c3e5c3cb6663418c40b3fb2199b6.pdf#toolbar=0&navpanes=0&scrollbar=0" className="text-gradient btn-link" target="_blank" rel="noreferrer">
                 My CV
               </a>
             </motion.div>
