@@ -45,7 +45,7 @@ const About = () => {
             <Link to='contact' activeClass='active' smooth="true" spy="true"  className="btn btn-lg flex items-center">Contact me</Link>
             <a href="https://static.topcv.vn/topcv-cv-uploads/d343c3e5c3cb6663418c40b3fb2199b6.pdf#toolbar=0&navpanes=0&scrollbar=0" className="text-gradient btn-link" target="_blank" rel="noreferrer">
                 My CV
-              </a>
+            </a>
           </div>
           </motion.div>
         </div>
