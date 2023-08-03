@@ -54,7 +54,7 @@ const Contact = () => {
     if (isFormValid) {
       try {
         const contactData = await fetch(
-          "http://127.0.0.1:8000/api/send-email",
+          "http://ec2-13-210-193-36.ap-southeast-2.compute.amazonaws.com/api/send-email",
           {
             method: "POST",
             headers: {
