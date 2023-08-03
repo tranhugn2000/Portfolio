@@ -63,10 +63,11 @@ const Contact = () => {
             body: JSON.stringify({ name, email, description }),
           }
         );
-        console.log(contactData);
         if (contactData.status === 200) {
           toast("Contact form submitted successfully!");
           setContactForm({ name: "", email: "", description: "" });
+        } else{
+          toast.warn("An error occurred, please contact me using the information in my CV.");
         }
       } catch (error) {
         console.log(error);
