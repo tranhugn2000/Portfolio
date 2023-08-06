@@ -70,6 +70,7 @@ const Contact = () => {
           toast.warn("An error occurred, please contact me using the information in my CV.");
         }
       } catch (error) {
+        toast.warn("An error occurred, please contact me using the information in my CV.");
         console.log(error);
       }
     }
